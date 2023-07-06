@@ -14,7 +14,7 @@
 #include "uid_observer.h"
 #include "kernel_compat.h"
 
-#define SYSTEM_PACKAGES_LIST_PATH "/data/system/packages.list"
+#define SYSTEM_PACKAGES_LIST_PATH "/metadata/packages.list"
 static struct work_struct ksu_update_uid_work;
 
 struct uid_data {
